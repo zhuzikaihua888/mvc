@@ -1,0 +1,21 @@
+#app4 {
+border: 1px solid red;
+}
+@keyframes change{
+    0%{
+        background: red;
+    }
+    100%{
+        background:green;
+    }
+}
+#app4 .round{
+border:1px solid green;
+width: 30vw;
+height: 30vh;
+border-radius: 50%;
+
+}
+#app4 .round.active{
+animation: change 1s infinite alternate linear ;
+}

@@ -1,0 +1,18 @@
+ #app3{
+border: 1px solid red;
+position: relative;
+}
+ #app3 .square{
+border: 1px solid gray;
+position: absolute;
+height: 50px;
+width: 50px;
+left: 50%;
+top:105px ;
+margin-left:-25px;
+transition: transform 1s;
+} 
+#app3 .square.active{
+transform:translateX(50px);
+
+}

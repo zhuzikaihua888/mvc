@@ -1,0 +1,17 @@
+#app1{
+border:1px solid red;
+width: 50vw;
+height: 50vh;
+position: relative;
+}
+#app1 .output{
+position: absolute;
+right:50%;
+top: 50%;
+}
+#app1 .actions{
+position: absolute;
+right: 50%;
+top:55%;
+
+}

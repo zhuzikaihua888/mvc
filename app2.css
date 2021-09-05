@@ -1,0 +1,21 @@
+#app2 {
+  border: 1px solid red;
+}
+#app2 .tab {
+  display: flex;
+}
+#app2 .tab > li {
+  border: 1px solid grey;
+  width: 50%;
+}
+
+
+
+
+#app2 .content > li {
+  display: none;
+}
+
+#app2 .content > li.active {
+  display: block;
+}
